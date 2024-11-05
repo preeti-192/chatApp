@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.message {
+  background-color: rgb(234, 234, 234);
+  border-radius: 20px;
+  padding: 10px;
+  width: 24%;
+  margin: 16px;
+}
+.left {
+  float: left;
+  clear: both;
+}
+.right {
+  float: right;
+  clear: both;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
